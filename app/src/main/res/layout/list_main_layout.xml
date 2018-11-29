@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/movielayout"
+    android:orientation="vertical">
+    <ImageView
+        android:paddingLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/posterimg"
+        android:src="@mipmap/ic_rating"/>
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/txttitle"
+        android:textStyle="bold"
+        android:text="Movie Title"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:id="@+id/txtrating"
+            android:textStyle="bold"
+            android:text="Movie Rating"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageratting"
+            android:src="@mipmap/ic_rating"/>
+    </LinearLayout>
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/txtsubtitle"
+        android:textStyle="italic"
+        android:text="Movie Sub Title"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:textStyle="normal"
+        android:paddingLeft="10dp"
+        android:id="@+id/txtdescription"
+        android:text="Movie description"/>
+</LinearLayout>
